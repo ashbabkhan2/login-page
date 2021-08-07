@@ -8,7 +8,7 @@
     display: grid;
     background-color: #9C7AF5;
     width: 100%;
-    height:100vh;
+    height:100%;
     grid-template-columns: 1fr 1fr;
 }
 .login__page{
@@ -20,8 +20,6 @@
     background-size:cover;
     background-position:center;
 }
-
-
 .text{
      width: 71%;
      display: flex;
@@ -107,7 +105,6 @@
     /* display: none; */
     position: relative;
 }
-
 .radio .child-1 input::after{
     content: '';
     display: inline-block;
@@ -196,6 +193,10 @@
     }
     .login__page{
         display: block;
+        background-image: url('mobile.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
         height: auto;
     }
     .login__page .login__form{
