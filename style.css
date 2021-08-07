@@ -111,8 +111,8 @@
 .radio .child-1 input::after{
     content: '';
     display: inline-block;
-    width: 14px;
-    height: 14px;
+    width: 15px;
+    height: 15px;
     margin-top: -2px;
     border: 1px solid green;
     border-radius: 50%;
@@ -122,10 +122,10 @@
     content: '';
     position: absolute;
     display: inline-block;
-    width: 11.3px;
-    margin-left: 2.2px;
+    width: 11.7px;
+    margin-left: 2.4px;
     background-color: green;
-    height: 11.5px;
+    height: 12px;
     border-radius: 50%;
 }
 
